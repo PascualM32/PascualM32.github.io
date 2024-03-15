@@ -6,22 +6,36 @@
     <title>U.S.-Mexico Border: Social, Environmental, and Cultural Effects</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1000;
         }
         header {
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.5);
             color: #fff;
             padding: 20px;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
         nav {
-            background-color: #444;
+            background-color: rgba(0, 0, 0, 0.5);
             color: #fff;
             padding: 10px;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
         nav a {
             color: #fff;
@@ -30,6 +44,8 @@
         }
         main {
             padding: 20px;
+            position: relative;
+            z-index: 1;
         }
         section {
             margin-bottom: 20px;
@@ -41,17 +57,19 @@
             line-height: 1.6;
         }
         footer {
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.5);
             color: #fff;
             text-align: center;
             padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+            z-index: 1;
         }
     </style>
 </head>
 <body>
+    <video autoplay muted loop id="video-background" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&controls=0&showinfo=0&rel=0&loop=1&playlist=VIDEO_ID"></video>
     <header>
         <h1>U.S.-Mexico Border: Social, Environmental, and Cultural Effects</h1>
     </header>
@@ -78,5 +96,6 @@
         <p>&copy; 2024 U.S.-Mexico Border Website</p>
     </footer>
 </body>
-</html> 
+</html>
+
 
