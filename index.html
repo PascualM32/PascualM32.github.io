@@ -9,7 +9,6 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            overflow: hidden;
         }
         #video-background {
             position: fixed;
@@ -69,7 +68,10 @@
     </style>
 </head>
 <body>
-    <iframe id="video-background" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen src="https://www.youtube.com/embed/f9eJ4j2rCcA?autoplay=1&controls=0&showinfo=0&rel=0&loop=1&playlist=f9eJ4j2rCcA"></iframe>
+    <video autoplay muted loop id="video-background">
+        <source src="https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <header>
         <h1>U.S.-Mexico Border: Social, Environmental, and Cultural Effects</h1>
     </header>
