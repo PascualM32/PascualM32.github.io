@@ -10,14 +10,9 @@
             padding: 0;
             font-family: Arial, sans-serif;
             overflow-x: hidden;
-        }
-        #video-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1000;
+            background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with your image URL */
+            background-size: cover;
+            background-position: center;
         }
         header {
             background-color: rgba(0, 0, 0, 0.5);
@@ -35,5 +30,62 @@
             position: relative;
             z-index: 1;
         }
-      
-
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>U.S.-Mexico Border: Social, Environmental, and Cultural Effects</h1>
+    </header>
+    <nav>
+        <a href="#social">Social Effects</a>
+        <a href="#environmental">Environmental Effects</a>
+        <a href="#cultural">Cultural Effects</a>
+    </nav>
+    <main>
+        <section id="social">
+            <h2>Social Effects</h2>
+            <p>The U.S.-Mexico border has significant social effects, including immigration policies, border security, and human rights concerns. Communities along the border often face challenges related to economic disparities, access to healthcare, and education.</p>
+        </section>
+        <section id="environmental">
+            <h2>Environmental Effects</h2>
+            <p>The construction of physical barriers along the border can disrupt wildlife habitats, alter ecosystems, and impede the natural flow of waterways. Additionally, pollution from border-related activities can have adverse effects on air and water quality.</p>
+        </section>
+        <section id="cultural">
+            <h2>Cultural Effects</h2>
+            <p>The U.S.-Mexico border region is rich in cultural diversity, with influences from both countries. However, the implementation of border policies and security measures can impact cultural exchange, traditions, and heritage preservation.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 U.S.-Mexico Border Website</p>
+    </footer>
+</body>
+</html>
